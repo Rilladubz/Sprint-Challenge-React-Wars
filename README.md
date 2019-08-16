@@ -26,32 +26,42 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    A component based library that handles state data. How to manage data with out bogging down the DOM.
+
 - [ ] What does it mean to _think_ in react?
+
+    To think in React means to think in a component oriented way. 
 
 - [ ] Describe state.
 
+    State is an object that determines how a component renders & behaves. State is data.
+
 - [ ] Describe props.
 
+    Props is data which is being passed to another component. 
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    side effects are things that happen outside of the scope of a function. To synce effects in react to state you call a UseEffect followed by an axios call and then use the SetState call to set the state of the state component to the result of the of axios call's promise. 
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [-] Create a forked copy of this project.
+- [-] Add PM as collaborator on Github.
+- [-] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
 - [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
 - [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [-] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
+- [-] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [-] Implement the project on this Branch, **committing progress & changes often.**
+- [-] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [-] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request.
 - [ ] PM then will count the HW as done by merging the branch back into master.
 
